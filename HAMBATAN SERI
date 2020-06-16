@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+// Function parameter dan nilai return
+int hambatanSeri (int R1, int R2, int R3)
+{
+	return R1 + R2 + R3;
+}
+
+int main ()
+{
+	cout << "Hasil hambatan seri adalah" <<endl;
+	cout << hambatanSeri (12, 13, 14);
+}
