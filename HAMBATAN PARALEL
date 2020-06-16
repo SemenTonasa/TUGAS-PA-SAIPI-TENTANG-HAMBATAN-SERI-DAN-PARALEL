@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+// Function parameter dan nilai return
+float hambatanParalel (float R1, float R2, float R3)
+{
+	return 1/R1 + 1/R2 + 1/R3;
+}
+
+int main ()
+{
+	cout << "Hasil hambatan paralel adalah" <<endl;
+	cout << hambatanParalel (12, 13, 14);
+}
